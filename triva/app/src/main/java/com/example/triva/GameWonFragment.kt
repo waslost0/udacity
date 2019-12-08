@@ -36,7 +36,7 @@ class GameWonFragment : Fragment() {
                 inflater, R.layout.fragment_game_won, container, false)
 
         binding.nextMatchButton.setOnClickListener {view: View->
-            view.findNavController().navigate(GameWonFragmentDirections.actionGameWonFragmentToGameFragment())
+            view.findNavController().navigate(GameWonFragmentDirections.actionGameWonFragmentToTitleFragment())
         }
 
 //        Toast.makeText(context,
